@@ -57,7 +57,7 @@ exports.addUser = addUser;
  */
 const getAllReservations = function(guest_id, limit = 10) {
   return pool.query(`
-SELECT * FROM reseravations AS r
+SELECT r.*, p.* FROM reservations AS r
 JOIN properties AS p ON p.id = r.property_id
 WHERE r.guest_id = $1
 LIMIT $2
