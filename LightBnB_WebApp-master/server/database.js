@@ -82,7 +82,7 @@ const getAllProperties = function(options, limit = 10) {
   let queryString = `
   SELECT p.*, avg(pr.rating) AS averae_rating
   FROM properties AS p
-  JOIN property_reviews AS pr ON p.id = pr.property_id
+  FULL OUTER JOIN property_reviews AS pr ON p.id = pr.property_id
   `;
 
   let havingClause = ''
