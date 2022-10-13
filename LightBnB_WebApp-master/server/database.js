@@ -80,7 +80,7 @@ const getAllProperties = function(options, limit = 10) {
   const queryParams = [];
 
   let queryString = `
-  SELECT p.*, avg(pr.rating) AS averae_rating
+  SELECT p.*, avg(pr.rating) AS average_rating
   FROM properties AS p
   FULL OUTER JOIN property_reviews AS pr ON p.id = pr.property_id
   `;
