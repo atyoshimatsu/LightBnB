@@ -4,7 +4,7 @@ LightBnB is a simple AirBnB clone.
 
 ## Final Product
 ### Top Page View
-!["Screenshot of top page View"](https://github.com/atyoshimatsu/LightBnB/blob/main/LightBnB_WebApp-master/blob/LightBnB_top_paage.png)
+!["Screenshot of top page View"](https://github.com/atyoshimatsu/LightBnB/blob/main/LightBnB_WebApp-master/blob/LightBnB_top_page.png)
 
 
 ## Getting Started
